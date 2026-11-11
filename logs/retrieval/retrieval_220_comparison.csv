@@ -1,0 +1,226 @@
+question_id,question,expected_filename,method,rank,retrieved_filename,page,tfidf_score,term_coverage,final_score,top1_paper_match
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,tfidf,1,attention_is_all_you_need_v7.pdf,2,0.0761,0.4,0.0761,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,tfidf,2,moshi_v1.pdf,7,0.0614,0.4,0.0614,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,tfidf,3,attention_is_all_you_need_v7.pdf,12,0.0612,0.4,0.0612,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,tfidf,4,dynamic_chunking_v2.pdf,22,0.0606,0.4,0.0606,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,tfidf,5,moshi_v1.pdf,6,0.0546,0.6,0.0546,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,old_heuristic,1,moshi_v1.pdf,6,0.0546,0.6,0.2182,False
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,37,0.0523,0.6,0.2166,False
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,35,0.0463,0.6,0.2124,False
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,old_heuristic,4,attention_is_all_you_need_v7.pdf,12,0.0454,0.6,0.2118,False
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,old_heuristic,5,attention_is_all_you_need_v7.pdf,2,0.0761,0.4,0.1733,False
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,normalized_heuristic,1,attention_is_all_you_need_v7.pdf,2,0.0761,0.4,0.88,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,normalized_heuristic,2,moshi_v1.pdf,7,0.0614,0.4,0.7256,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,normalized_heuristic,3,attention_is_all_you_need_v7.pdf,12,0.0612,0.4,0.7238,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,22,0.0606,0.4,0.7174,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,normalized_heuristic,5,moshi_v1.pdf,6,0.0546,0.6,0.6942,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,tfidf,1,attention_is_all_you_need_v7.pdf,4,0.365,0.8,0.365,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,tfidf,2,attention_is_all_you_need_v7.pdf,4,0.1875,0.4,0.1875,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,tfidf,3,attention_is_all_you_need_v7.pdf,5,0.1556,0.6,0.1556,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,tfidf,4,attention_is_all_you_need_v7.pdf,1,0.1275,0.6,0.1275,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,tfidf,5,attention_is_all_you_need_v7.pdf,9,0.0837,0.2,0.0837,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,old_heuristic,1,attention_is_all_you_need_v7.pdf,4,0.365,0.8,0.4955,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,old_heuristic,2,attention_is_all_you_need_v7.pdf,5,0.1556,0.6,0.2889,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,old_heuristic,3,attention_is_all_you_need_v7.pdf,1,0.1275,0.6,0.2693,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,old_heuristic,4,attention_is_all_you_need_v7.pdf,4,0.1875,0.4,0.2512,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,35,0.0516,0.4,0.1561,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,normalized_heuristic,1,attention_is_all_you_need_v7.pdf,4,0.365,0.8,0.96,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,normalized_heuristic,2,attention_is_all_you_need_v7.pdf,4,0.1875,0.4,0.491,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,normalized_heuristic,3,attention_is_all_you_need_v7.pdf,5,0.1556,0.6,0.4609,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,normalized_heuristic,4,attention_is_all_you_need_v7.pdf,1,0.1275,0.6,0.3995,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,normalized_heuristic,5,attention_is_all_you_need_v7.pdf,9,0.0837,0.2,0.2235,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,tfidf,1,attention_is_all_you_need_v7.pdf,5,0.175,1.0,0.175,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,tfidf,2,attention_is_all_you_need_v7.pdf,4,0.1365,0.5,0.1365,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,tfidf,3,attention_is_all_you_need_v7.pdf,3,0.1195,0.75,0.1195,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,tfidf,4,attention_is_all_you_need_v7.pdf,2,0.0988,1.0,0.0988,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,tfidf,5,attention_is_all_you_need_v7.pdf,2,0.0978,0.75,0.0978,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,old_heuristic,1,attention_is_all_you_need_v7.pdf,5,0.175,1.0,0.4225,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,old_heuristic,2,attention_is_all_you_need_v7.pdf,2,0.0988,1.0,0.3692,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,old_heuristic,3,attention_is_all_you_need_v7.pdf,3,0.1195,0.75,0.3087,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,old_heuristic,4,attention_is_all_you_need_v7.pdf,2,0.0978,0.75,0.2934,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,old_heuristic,5,attention_is_all_you_need_v7.pdf,1,0.0787,0.75,0.2801,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,normalized_heuristic,1,attention_is_all_you_need_v7.pdf,5,0.175,1.0,1.0,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,normalized_heuristic,2,attention_is_all_you_need_v7.pdf,4,0.1365,0.5,0.7243,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,normalized_heuristic,3,attention_is_all_you_need_v7.pdf,3,0.1195,0.75,0.6965,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,normalized_heuristic,4,attention_is_all_you_need_v7.pdf,2,0.0988,1.0,0.652,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,normalized_heuristic,5,attention_is_all_you_need_v7.pdf,2,0.0978,0.75,0.597,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,tfidf,1,attention_is_all_you_need_v7.pdf,6,0.2208,0.5,0.2208,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,tfidf,2,attention_is_all_you_need_v7.pdf,8,0.0858,0.5,0.0858,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,tfidf,3,dynamic_chunking_v2.pdf,22,0.0577,0.25,0.0577,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,tfidf,4,attention_is_all_you_need_v7.pdf,9,0.0472,0.25,0.0472,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,tfidf,5,attention_is_all_you_need_v7.pdf,6,0.0448,0.25,0.0448,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,old_heuristic,1,attention_is_all_you_need_v7.pdf,6,0.2208,0.5,0.3046,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,old_heuristic,2,attention_is_all_you_need_v7.pdf,8,0.0858,0.5,0.2101,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,22,0.0577,0.25,0.1154,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,old_heuristic,4,attention_is_all_you_need_v7.pdf,9,0.0472,0.25,0.1081,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,old_heuristic,5,attention_is_all_you_need_v7.pdf,6,0.0448,0.25,0.1064,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,normalized_heuristic,1,attention_is_all_you_need_v7.pdf,6,0.2208,0.5,0.9,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,normalized_heuristic,2,attention_is_all_you_need_v7.pdf,8,0.0858,0.5,0.4108,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,22,0.0577,0.25,0.2591,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,normalized_heuristic,4,attention_is_all_you_need_v7.pdf,9,0.0472,0.25,0.2211,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,normalized_heuristic,5,attention_is_all_you_need_v7.pdf,6,0.0448,0.25,0.2123,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,tfidf,1,dynamic_chunking_v2.pdf,37,0.1261,0.75,0.1261,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,tfidf,2,dynamic_chunking_v2.pdf,37,0.1243,0.75,0.1243,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,tfidf,3,attention_is_all_you_need_v7.pdf,5,0.0987,1.0,0.0987,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,tfidf,4,attention_is_all_you_need_v7.pdf,3,0.0987,0.75,0.0987,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,tfidf,5,attention_is_all_you_need_v7.pdf,5,0.0958,0.5,0.0958,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,old_heuristic,1,attention_is_all_you_need_v7.pdf,5,0.0987,1.0,0.3691,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,37,0.1261,0.75,0.3133,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,37,0.1243,0.75,0.312,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,old_heuristic,4,attention_is_all_you_need_v7.pdf,3,0.0987,0.75,0.2941,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,5,0.0893,0.75,0.2875,True
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,37,0.1261,0.75,0.95,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,37,0.1243,0.75,0.9384,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,normalized_heuristic,3,attention_is_all_you_need_v7.pdf,5,0.0987,1.0,0.8263,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,normalized_heuristic,4,attention_is_all_you_need_v7.pdf,3,0.0987,0.75,0.7761,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,5,0.0893,0.75,0.7165,False
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,tfidf,1,moshi_v1.pdf,6,0.0995,0.6,0.0995,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,tfidf,2,moshi_v1.pdf,7,0.0918,0.6,0.0918,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,tfidf,3,moshi_v1.pdf,41,0.0847,0.8,0.0847,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,tfidf,4,moshi_v1.pdf,1,0.0832,0.6,0.0832,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,tfidf,5,moshi_v1.pdf,63,0.0815,0.4,0.0815,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,old_heuristic,1,moshi_v1.pdf,41,0.0847,0.8,0.2993,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,old_heuristic,2,moshi_v1.pdf,12,0.0654,0.8,0.2858,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,old_heuristic,3,moshi_v1.pdf,6,0.0995,0.6,0.2497,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,old_heuristic,4,moshi_v1.pdf,7,0.0918,0.6,0.2443,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,old_heuristic,5,moshi_v1.pdf,1,0.0832,0.6,0.2382,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,normalized_heuristic,1,moshi_v1.pdf,6,0.0995,0.6,0.92,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,normalized_heuristic,2,moshi_v1.pdf,7,0.0918,0.6,0.8582,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,normalized_heuristic,3,moshi_v1.pdf,41,0.0847,0.8,0.841,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,normalized_heuristic,4,moshi_v1.pdf,1,0.0832,0.6,0.7884,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,normalized_heuristic,5,moshi_v1.pdf,63,0.0815,0.4,0.7354,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,tfidf,1,moshi_v1.pdf,6,0.1383,0.6667,0.1383,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,tfidf,2,moshi_v1.pdf,5,0.1312,0.8333,0.1312,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,tfidf,3,moshi_v1.pdf,5,0.1305,0.3333,0.1305,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,tfidf,4,moshi_v1.pdf,7,0.1165,0.5,0.1165,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,tfidf,5,moshi_v1.pdf,1,0.1124,0.6667,0.1124,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,old_heuristic,1,moshi_v1.pdf,5,0.1312,0.8333,0.3419,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,old_heuristic,2,moshi_v1.pdf,15,0.1119,0.8333,0.3283,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,old_heuristic,3,moshi_v1.pdf,6,0.1383,0.6667,0.2968,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,old_heuristic,4,moshi_v1.pdf,1,0.1124,0.6667,0.2787,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,old_heuristic,5,moshi_v1.pdf,32,0.0945,0.6667,0.2661,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,normalized_heuristic,1,moshi_v1.pdf,6,0.1383,0.6667,0.9333,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,normalized_heuristic,2,moshi_v1.pdf,5,0.1312,0.8333,0.9255,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,normalized_heuristic,3,moshi_v1.pdf,5,0.1305,0.3333,0.8214,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,normalized_heuristic,4,moshi_v1.pdf,15,0.1119,0.8333,0.8139,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,normalized_heuristic,5,moshi_v1.pdf,1,0.1124,0.6667,0.7834,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,tfidf,1,moshi_v1.pdf,3,0.104,0.8,0.104,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,tfidf,2,moshi_v1.pdf,41,0.1023,0.8,0.1023,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,tfidf,3,moshi_v1.pdf,7,0.102,0.8,0.102,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,tfidf,4,moshi_v1.pdf,39,0.0958,0.4,0.0958,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,tfidf,5,moshi_v1.pdf,6,0.0933,0.8,0.0933,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,old_heuristic,1,moshi_v1.pdf,3,0.104,0.8,0.3128,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,old_heuristic,2,moshi_v1.pdf,41,0.1023,0.8,0.3116,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,old_heuristic,3,moshi_v1.pdf,7,0.102,0.8,0.3114,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,old_heuristic,4,moshi_v1.pdf,6,0.0933,0.8,0.3053,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,old_heuristic,5,moshi_v1.pdf,14,0.0926,0.8,0.3048,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,normalized_heuristic,1,moshi_v1.pdf,3,0.104,0.8,0.96,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,normalized_heuristic,2,moshi_v1.pdf,41,0.1023,0.8,0.9472,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,normalized_heuristic,3,moshi_v1.pdf,7,0.102,0.8,0.9445,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,normalized_heuristic,4,moshi_v1.pdf,6,0.0933,0.8,0.8776,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,normalized_heuristic,5,moshi_v1.pdf,14,0.0926,0.8,0.8721,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,tfidf,1,moshi_v1.pdf,5,0.1787,0.3333,0.1787,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,tfidf,2,moshi_v1.pdf,5,0.1466,0.8333,0.1466,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,tfidf,3,moshi_v1.pdf,1,0.0932,0.6667,0.0932,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,tfidf,4,moshi_v1.pdf,41,0.0833,0.6667,0.0833,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,tfidf,5,moshi_v1.pdf,26,0.0811,0.5,0.0811,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,old_heuristic,1,moshi_v1.pdf,5,0.1466,0.8333,0.3526,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,old_heuristic,2,moshi_v1.pdf,1,0.0932,0.6667,0.2653,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,old_heuristic,3,moshi_v1.pdf,41,0.0833,0.6667,0.2583,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,old_heuristic,4,moshi_v1.pdf,26,0.0658,0.6667,0.2461,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,old_heuristic,5,moshi_v1.pdf,2,0.0653,0.6667,0.2457,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,normalized_heuristic,1,moshi_v1.pdf,5,0.1787,0.3333,0.8667,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,normalized_heuristic,2,moshi_v1.pdf,5,0.1466,0.8333,0.8229,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,normalized_heuristic,3,moshi_v1.pdf,1,0.0932,0.6667,0.5508,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,normalized_heuristic,4,moshi_v1.pdf,41,0.0833,0.6667,0.5064,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,normalized_heuristic,5,moshi_v1.pdf,26,0.0811,0.5,0.4632,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,tfidf,1,moshi_v1.pdf,6,0.1678,1.0,0.1678,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,tfidf,2,moshi_v1.pdf,7,0.1003,1.0,0.1003,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,tfidf,3,moshi_v1.pdf,3,0.0771,0.5,0.0771,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,tfidf,4,dynamic_chunking_v2.pdf,4,0.0661,0.75,0.0661,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,tfidf,5,dynamic_chunking_v2.pdf,17,0.0476,0.75,0.0476,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,old_heuristic,1,moshi_v1.pdf,6,0.1678,1.0,0.4175,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,old_heuristic,2,moshi_v1.pdf,7,0.1003,1.0,0.3702,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,4,0.0661,0.75,0.2713,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,17,0.0476,0.75,0.2583,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,old_heuristic,5,moshi_v1.pdf,7,0.0399,0.75,0.253,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,normalized_heuristic,1,moshi_v1.pdf,6,0.1678,1.0,1.0,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,normalized_heuristic,2,moshi_v1.pdf,7,0.1003,1.0,0.6782,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,normalized_heuristic,3,moshi_v1.pdf,3,0.0771,0.5,0.4675,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,4,0.0661,0.75,0.4651,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,17,0.0476,0.75,0.3768,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,tfidf,1,dynamic_chunking_v2.pdf,1,0.1983,1.0,0.1983,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,tfidf,2,dynamic_chunking_v2.pdf,2,0.1898,1.0,0.1898,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,tfidf,3,dynamic_chunking_v2.pdf,2,0.1521,1.0,0.1521,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,tfidf,4,dynamic_chunking_v2.pdf,4,0.1437,1.0,0.1437,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,tfidf,5,dynamic_chunking_v2.pdf,31,0.1037,1.0,0.1037,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,old_heuristic,1,dynamic_chunking_v2.pdf,1,0.1983,1.0,0.4388,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,2,0.1898,1.0,0.4329,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,2,0.1521,1.0,0.4065,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,4,0.1437,1.0,0.4006,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,31,0.1037,1.0,0.3726,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,1,0.1983,1.0,1.0,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,2,0.1898,1.0,0.9655,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,2,0.1521,1.0,0.8134,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,4,0.1437,1.0,0.7796,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,31,0.1037,1.0,0.6182,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,tfidf,1,dynamic_chunking_v2.pdf,31,0.0984,0.8333,0.0984,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,tfidf,2,dynamic_chunking_v2.pdf,22,0.0911,0.5,0.0911,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,tfidf,3,dynamic_chunking_v2.pdf,22,0.0902,0.6667,0.0902,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,tfidf,4,attention_is_all_you_need_v7.pdf,2,0.086,0.6667,0.086,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,tfidf,5,dynamic_chunking_v2.pdf,4,0.0833,0.5,0.0833,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,old_heuristic,1,dynamic_chunking_v2.pdf,31,0.0984,0.8333,0.3189,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,22,0.0902,0.6667,0.2631,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,old_heuristic,3,attention_is_all_you_need_v7.pdf,2,0.086,0.6667,0.2602,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,26,0.0743,0.6667,0.252,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,22,0.0911,0.5,0.2138,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,31,0.0984,0.8333,0.9667,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,22,0.0902,0.6667,0.8664,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,22,0.0911,0.5,0.8406,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,normalized_heuristic,4,attention_is_all_you_need_v7.pdf,2,0.086,0.6667,0.8325,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,4,0.0833,0.5,0.777,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,1,dynamic_chunking_v2.pdf,3,0.1547,0.4,0.1547,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,2,dynamic_chunking_v2.pdf,3,0.1511,0.6,0.1511,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,3,dynamic_chunking_v2.pdf,33,0.1009,0.4,0.1009,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,4,dynamic_chunking_v2.pdf,2,0.0992,0.6,0.0992,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,5,dynamic_chunking_v2.pdf,21,0.0895,0.4,0.0895,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,1,dynamic_chunking_v2.pdf,3,0.1511,0.6,0.2858,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,2,0.0992,0.6,0.2495,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,3,0.1547,0.4,0.2283,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,33,0.1009,0.4,0.1906,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,21,0.0895,0.4,0.1827,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,3,0.1511,0.6,0.9015,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,3,0.1547,0.4,0.88,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,2,0.0992,0.6,0.6332,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,33,0.1009,0.4,0.6016,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,21,0.0895,0.4,0.5431,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,tfidf,1,dynamic_chunking_v2.pdf,3,0.1388,0.3333,0.1388,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,tfidf,2,dynamic_chunking_v2.pdf,3,0.1162,0.3333,0.1162,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,tfidf,3,dynamic_chunking_v2.pdf,33,0.1058,0.5,0.1058,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,tfidf,4,dynamic_chunking_v2.pdf,12,0.0966,0.3333,0.0966,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,tfidf,5,dynamic_chunking_v2.pdf,6,0.0821,0.5,0.0821,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,old_heuristic,1,dynamic_chunking_v2.pdf,33,0.1058,0.5,0.2241,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,6,0.0821,0.5,0.2075,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,8,0.0813,0.5,0.2069,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,3,0.1388,0.3333,0.1972,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,3,0.1162,0.3333,0.1813,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,3,0.1388,0.3333,0.8667,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,3,0.1162,0.3333,0.7362,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,33,0.1058,0.5,0.7098,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,12,0.0966,0.3333,0.6234,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,6,0.0821,0.5,0.5734,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,1,dynamic_chunking_v2.pdf,3,0.1426,0.3333,0.1426,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,2,dynamic_chunking_v2.pdf,3,0.1172,0.3333,0.1172,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,3,dynamic_chunking_v2.pdf,33,0.1027,0.5,0.1027,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,4,dynamic_chunking_v2.pdf,2,0.0891,0.5,0.0891,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,tfidf,5,dynamic_chunking_v2.pdf,2,0.0865,0.5,0.0865,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,1,dynamic_chunking_v2.pdf,33,0.1027,0.5,0.2219,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,2,dynamic_chunking_v2.pdf,2,0.0891,0.5,0.2124,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,3,dynamic_chunking_v2.pdf,2,0.0865,0.5,0.2105,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,4,dynamic_chunking_v2.pdf,23,0.0851,0.5,0.2096,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,old_heuristic,5,dynamic_chunking_v2.pdf,6,0.075,0.5,0.2025,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,1,dynamic_chunking_v2.pdf,3,0.1426,0.3333,0.8667,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,2,dynamic_chunking_v2.pdf,3,0.1172,0.3333,0.7243,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,3,dynamic_chunking_v2.pdf,33,0.1027,0.5,0.676,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,4,dynamic_chunking_v2.pdf,2,0.0891,0.5,0.5998,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,normalized_heuristic,5,dynamic_chunking_v2.pdf,2,0.0865,0.5,0.5853,True

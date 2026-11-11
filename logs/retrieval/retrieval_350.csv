@@ -1,0 +1,76 @@
+question_id,question,expected_filename,rank,retrieved_filename,paper,page,score,top1_paper_match
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,1,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),2,0.0768,True
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),7,0.0596,
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,3,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),12,0.0545,
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),22,0.0526,
+A01,What is the Transformer architecture and how does it differ from recurrent models?,attention_is_all_you_need_v7.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),37,0.0429,
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,1,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),4,0.284,True
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,2,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),5,0.1409,
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,3,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),5,0.1262,
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,4,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),4,0.1209,
+A02,How does scaled dot-product attention calculate attention weights?,attention_is_all_you_need_v7.pdf,5,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),1,0.0995,
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,1,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),5,0.1387,True
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,2,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),4,0.1263,
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,3,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),4,0.1098,
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,4,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),3,0.1074,
+A03,Why does the Transformer use multi-head attention?,attention_is_all_you_need_v7.pdf,5,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),2,0.0827,
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,1,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),6,0.1737,True
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,2,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),8,0.0677,
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,3,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),9,0.0446,
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,4,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),9,0.0403,
+A04,What are positional encodings and why are they needed?,attention_is_all_you_need_v7.pdf,5,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),14,0.0307,
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),37,0.1115,False
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),18,0.1053,
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,3,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),5,0.0877,
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,4,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),3,0.0855,
+A05,How does the Transformer encoder and decoder work?,attention_is_all_you_need_v7.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),19,0.0839,
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,1,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),63,0.0959,True
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),6,0.0829,
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,3,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),1,0.0713,
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,4,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),41,0.0669,
+M01,What is Moshi and what problem does it address in real-time dialogue?,moshi_v1.pdf,5,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),7,0.0666,
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,1,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),5,0.133,True
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),6,0.1146,
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,3,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),1,0.1007,
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,4,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),15,0.089,
+M02,How does Moshi handle speech and text in real-time conversation?,moshi_v1.pdf,5,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),7,0.0866,
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,1,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),3,0.0884,True
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),10,0.0813,
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,3,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),7,0.0797,
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,4,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),6,0.0772,
+M03,What is the role of the Mimi audio codec in Moshi?,moshi_v1.pdf,5,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),23,0.0764,
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,1,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),5,0.1301,True
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),1,0.0919,
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,3,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),4,0.0731,
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,4,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),26,0.0614,
+M04,How does Moshi reduce latency during speech generation?,moshi_v1.pdf,5,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),26,0.0574,
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,1,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),6,0.1333,True
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,2,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),7,0.0875,
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,3,moshi_v1.pdf,Moshi: a speech-text foundation model for real-time dialogue (arXiv:2410.00037v1),3,0.0673,
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),4,0.0582,
+M05,What are the main components of the Moshi architecture?,moshi_v1.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),17,0.044,
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),1,0.1697,True
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),2,0.1655,
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,3,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),4,0.1156,
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),23,0.1,
+D01,What is dynamic chunking in end-to-end hierarchical sequence modeling?,dynamic_chunking_v2.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),31,0.097,
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),22,0.0893,True
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),31,0.0874,
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,3,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),4,0.075,
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),26,0.0722,
+D02,Why is hierarchical sequence modeling useful for long sequences?,dynamic_chunking_v2.pdf,5,attention_is_all_you_need_v7.pdf,Attention Is All You Need (arXiv:1706.03762v7),2,0.0676,
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),3,0.148,True
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),23,0.0976,
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,3,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),21,0.0934,
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),2,0.0878,
+D03,How are chunks selected or formed in dynamic chunking?,dynamic_chunking_v2.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),33,0.0867,
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),3,0.1139,True
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),33,0.1008,
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,3,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),23,0.0859,
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),21,0.0828,
+D04,What problem does dynamic chunking solve compared with fixed chunking?,dynamic_chunking_v2.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),31,0.0802,
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,1,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),3,0.1149,True
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,2,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),23,0.1012,
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,3,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),12,0.0958,
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,4,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),33,0.086,
+D05,What are the main results or benefits reported for dynamic chunking?,dynamic_chunking_v2.pdf,5,dynamic_chunking_v2.pdf,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (arXiv:2507.07955v2),21,0.0845,

@@ -1,0 +1,6 @@
+request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade
+e89097f0-c32b-4c98-b121-3403144cec35,real_sequential,real,2026-11-10T07:18:53.842607+00:00,,856.74,ok,0,93,80,direct_groq_no_retrieval,
+44e30d3f-8e46-4787-be5f-0122269e1da9,real_sequential,real,2026-11-10T07:18:56.701002+00:00,,318.36,ok,0,92,82,direct_groq_no_retrieval,
+b7fd3d56-69e1-438b-ba67-4bfafe014545,real_sequential,real,2026-11-10T07:18:59.020442+00:00,,298.05,ok,0,94,55,direct_groq_no_retrieval,
+0a2d8ea0-ee8f-4085-913f-b6ee09b3a972,real_sequential,real,2026-11-10T07:19:01.319736+00:00,,518.43,ok,0,96,144,direct_groq_no_retrieval,
+b3eaa65c-1715-4ae4-968f-a502c43133e6,real_sequential,real,2026-11-10T07:19:03.844626+00:00,,306.95,ok,0,96,68,direct_groq_no_retrieval,

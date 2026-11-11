@@ -1,0 +1,4 @@
+setting,chunk_words,top_k,rerank,questions,correct,wrong,correctly_refused,correctly_cited_pct,wrong_pct,correctly_refused_pct,avg_tokens_per_answer,p50_tokens_per_answer,ttft_p50_ms,ttft_p95_ms,total_time_p50_ms,total_time_p95_ms,total_time_p99_ms
+150w_top3_no_rerank,150,3,False,15,15,0,0,100.0,0.0,not measured (all 15 questions are answerable),1138.1,1137.0,not measured (non-streaming),not measured (non-streaming),706.47,1632.54,1632.54
+220w_top5_no_rerank,220,5,False,15,13,2,0,86.67,13.33,not measured (all 15 questions are answerable),2023.2,1993.0,not measured (non-streaming),not measured (non-streaming),799.58,1796.61,1796.61
+350w_top5_no_rerank,350,5,False,15,14,1,0,93.33,6.67,not measured (all 15 questions are answerable),2716.5,2689.0,not measured (non-streaming),not measured (non-streaming),876.63,1086.36,1086.36
