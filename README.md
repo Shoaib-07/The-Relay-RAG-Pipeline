@@ -7,5 +7,3 @@ Python implementation. Start with `SETUP_WINDOWS.md`.
 - Retrieval + cited answers using Groq
 - Local stand-in service for controlled load experiments
 - Request-level raw results in `results/results.csv`
-
-Do not commit or submit `.env` or API keys. Never fabricate measurements.
