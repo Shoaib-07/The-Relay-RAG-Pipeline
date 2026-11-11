@@ -1,2 +1,11 @@
-# The-Relay-RAG-Pipeline
-An experimental RAG-based research assistant built with Python and Groq API, featuring version-specific paper retrieval, page-level citations, evidence-based answer generation, and performance evaluation under simulated load conditions.
+# The Relay — Vaani ML Engineering Intern Assignment
+
+Python implementation. Start with `SETUP_WINDOWS.md`.
+
+## Scope
+- Three exact arXiv versions from the assignment
+- Retrieval + cited answers using Groq
+- Local stand-in service for controlled load experiments
+- Request-level raw results in `results/results.csv`
+
+Do not commit or submit `.env` or API keys. Never fabricate measurements.
